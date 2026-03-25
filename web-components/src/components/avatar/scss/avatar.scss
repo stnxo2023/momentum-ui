@@ -374,6 +374,7 @@
   --icon-color-channel-spam: var(--avatar-spam-icon-color);  
   --icon-color-white: var(--avatar-white-bg-color);
   --icon-color-dark-gray: var(--avatar-darkgray-bg-color);
+  --icon-color-channel-custom-messaging: var(--avatar-presence-engaged);
 }
 
 ::slotted(*) {

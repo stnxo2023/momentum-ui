@@ -276,7 +276,8 @@ describe("Avatar", () => {
       { type: "channel-sms-inbound", icon: "sms-filled" },
       { type: "channel-email-inbound", icon: "email-filled" },
       { type: "channel-call", icon: "handset-filled" },
-      { type: "channel-webex", icon: "webex-app-icon-color-container" }
+      { type: "channel-webex", icon: "webex-app-icon-color-container" },
+      { type: "channel-custom-messaging", icon: "chat-group-filled" }
     ];
 
     for (const { type, icon } of channelTypes) {

@@ -41,6 +41,8 @@ export class AvatarTemplateSandbox extends LitElement {
       <md-avatar title="Channel Whats App" type="channel-whats-app" avatar-style="table" size="32"></md-avatar>
       <md-avatar title="Channel We Chat" type="channel-we-chat" avatar-style="table" size="32"></md-avatar>
       <md-avatar title="Suspected Spam" type="channel-spam" size="32"></md-avatar>
+      <md-avatar title="Channel Social" type="channel-social" size="32"></md-avatar>
+      <md-avatar title="Channel Custom Messaging" type="channel-custom-messaging" size="32"></md-avatar>
       <h3>Icon Avatar Channel with style:default and state:active (Background Color:white)</h3>
       <md-avatar title="Channel Chat" type="channel-chat" avatar-style="default" state="active" size="32"></md-avatar>
       <md-avatar
@@ -292,6 +294,15 @@ export class AvatarTemplateSandbox extends LitElement {
       <md-avatar
         title="Channel Work item"
         type="channel-work-item"
+        avatar-style="default"
+        presence-type="idle"
+        state="rest"
+        size="88"
+        newMomentum
+      ></md-avatar>
+      <md-avatar
+        title="Channel Custom Messaging"
+        type="channel-custom-messaging"
         avatar-style="default"
         presence-type="idle"
         state="rest"

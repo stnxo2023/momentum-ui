@@ -225,7 +225,8 @@ export namespace Avatar {
       "channel-we-chat": "social-wechat-color",
       "channel-spam": "participant-unknown-bold",
       "channel-monitoring": "monitoring-bold",
-      "channel-work-item": "custom-task-ind-regular"
+      "channel-work-item": "custom-task-ind-regular",
+      "channel-custom-messaging": "chat-group-filled"
     };
 
     private getIconName(type: string): string {

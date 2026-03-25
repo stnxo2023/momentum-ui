@@ -29,7 +29,8 @@ const AvatarChannelType = [
   "channel-we-chat",
   "channel-spam",
   "channel-custom",
-  "channel-work-item"
+  "channel-work-item",
+  "channel-custom-messaging"
 ] as const;
 
 const AvatarType = ["bot", "group", "self", "typing", ""] as const;
