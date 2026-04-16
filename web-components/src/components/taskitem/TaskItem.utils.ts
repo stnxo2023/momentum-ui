@@ -91,6 +91,8 @@ export const renderTaskType = (mediaType: string, selected: boolean, status: str
       );
     case TaskItemMediaType.WORKITEM:
       return getChannelAvatar(selected, status, "channel-work-item");
+    case TaskItemMediaType.CUSTOM_MESSAGING:
+      return getChannelAvatar(selected, status, "channel-custom-messaging");
     default:
       return getChannelAvatar(selected, status, "channel-custom", html`<slot name="task-type"></slot>`);
   }
@@ -207,6 +209,15 @@ export const renderLegacyTaskType = (mediaType: string, selected: boolean, iconS
         <md-avatar
           title="Channel Work Item"
           type="channel-work-item"
+          avatar-style="default"
+          state=${selected ? "active" : "rest"}
+        ></md-avatar>
+      `;
+       case TaskItemMediaType.CUSTOM_MESSAGING:
+      return html`
+        <md-avatar
+          title="Channel Custom Messaging"
+          type="channel-custom-messaging"
           avatar-style="default"
           state=${selected ? "active" : "rest"}
         ></md-avatar>

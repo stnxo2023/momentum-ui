@@ -32,7 +32,8 @@ const TaskItemMediaType = {
   WEBEX: "webex",
   GOOGLE_MESSAGES: "googlemessages",
   OUTBOUND_CHAT: "outbound_chat",
-  WORKITEM: "workitem"
+  WORKITEM: "workitem",
+  CUSTOM_MESSAGING: "custommessaging"
 } as const;
 
 export { TaskItemStatus, TaskItemMediaType };

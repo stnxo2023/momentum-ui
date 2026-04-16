@@ -93,6 +93,14 @@ export class TaskItemSandbox extends LitElement {
           <div>01:10:30</div>
         </md-task-item>
         <md-task-item
+          mediaType="customMessaging"
+          item-title="Mihael Varificantare"
+          queue="IRV_quelle_11"
+          ?is-restyle=${this.isRestyled}
+        >
+          <div>01:10:25</div>
+        </md-task-item>
+        <md-task-item
           mediaType="progressive_campaign"
           item-title="Media Type progressive_campaign"
           queue="IRV_quelle_11"
